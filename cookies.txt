@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.cdn.xquiz.co	TRUE	/	FALSE	1999999999	__cf_bm	RCh55hfTBGF77zZuPET3vM5Li.9bv2FyjUMJYTz0jLI-1759157499-1.0.1.1-XNcD2AO9TDoK0VI1jx8WhG181IA5ZRbCk5.fhBrw0f0oVa3VD3Ue398o1ZtwTR2_yf.1elfES74erG.j_3oLaA53KSWE_IAAKIwWGIx00j4
+cdn.xquiz.co	TRUE	/	FALSE	1999999999	SameSite	None
+

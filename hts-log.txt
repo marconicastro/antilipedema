@@ -1,13 +1,21 @@
-HTTrack3.49-4+libhtsjava.so.2 launched on Mon, 29 Sep 2025 11:23:44 at +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
-(webhttrack -q -%i -Y -%L https://lipeteste.dramanucaceres.com.br/ -O "/home/mcastro/websites/AntiLipedema" -n -t -%P -p7 -N0 -s2 -p7 -D -a -K0 -c4 -%k -A100000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+HTTrack3.49-4+libhtsjava.so.2 launched on Mon, 29 Sep 2025 11:51:06 at http://https://lipeteste.dramanucaceres.com.br/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://https://lipeteste.dramanucaceres.com.br/ -O "/home/mcastro/websites/AntiLipedema" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A100000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-11:23:44	Error: 	Could not include URL list: https://lipeteste.dramanucaceres.com.br/
-11:23:44	Warning: 	Cache: damaged cache, trying to repair
-11:23:44	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
-11:23:44	Warning: 	Cache: error trying to open the cache
-11:23:44	Warning: 	No data seems to have been transferred during this session! : restoring previous one!
+11:51:06	Warning: 	Cache: damaged cache, trying to repair
+11:51:06	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+11:51:06	Warning: 	Cache: error trying to open the cache
+11:51:07	Warning: 	File not parsed, looks like binary: https://lipeteste.dramanucaceres.com.br/robots.txt
+11:51:34	Error: 	"Forbidden" (403) at link https://cdn.xquiz.co/ (from https://lipeteste.dramanucaceres.com.br/)
+11:51:35	Error: 	"Not Found" (404) at link https://fonts.googleapis.com/ (from https://lipeteste.dramanucaceres.com.br/)
+11:51:36	Error: 	"Not Found" (404) at link https://fonts.gstatic.com/ (from https://lipeteste.dramanucaceres.com.br/)
+11:51:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.utmify.com.br/scripts/utms/latest.js
+11:51:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.utmify.com.br/scripts/pixel/pixel.js
+11:51:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap
+
+HTTrack Website Copier/3.49-4 mirror complete in 3 minutes 18 seconds : 278 links scanned, 284 files written (6541958 bytes overall) [1685267 bytes received at 8511 bytes/sec], 4458688 bytes transferred using HTTP compression in 274 files, ratio 24%, 1.0 requests per connection
+(3 errors, 7 warnings, 0 messages)
